@@ -1,0 +1,110 @@
+<!--draft: patient questionnaire-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!--this page stylesheet and js-->
+    <link rel="stylesheet" type="text/css" href="css/survey.css" media="screen"/>
+    <script href="javascript/survey.js"></script>
+
+    <title>Client Survey</title>
+
+
+</head>
+
+<body>
+    
+    <!--div for quiz-->
+<div class="fluid-container">
+       <!--image header-->
+            <!--<img src="images/logo.png">-->
+            <div class="centered">
+               
+            </div>
+        </div>
+    </div>
+<!--start form-->
+<form id="survey">
+    <div id="container">
+        <h1>Let us assess your needs so that we can match you with an available therapist</h1>
+        &nbsp;
+            &nbsp;
+        <h3>Have you experience any of the following in the last month:</h3>
+        &nbsp;
+            &nbsp;
+        <form id="my_form">
+                       
+           <!--question 1 -->
+
+            
+            <h3>Increased anxiety so that you were unable to function?</h3>
+
+            <!--anxiety: yes-->
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="anxiety">
+                <label class="form-check-label" for="anxiety">Yes</label>
+            </div>
+            <!--anxiety: no-->
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="noAnxiety">
+                <label class="form-check-label" for="noAnxiety">No</label>
+            </div>
+            
+                  
+            <!--question 2-->
+            <!--depression-->
+            <h3>Increased sadness or depression so that you were unable to function?</h3>
+            
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="depression">
+                <label class="form-check-label" for="depression">Yes</label>
+            </div>
+
+            <!--no depression-->
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="noDepression">
+                <label class="form-check-label" for="noDepression">No</label>
+            </div>
+
+            <!--question 3: death of a loved one-->
+            <h3>The death of a loved one?</h3>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="death">
+                <label class="form-check-label" for="death">Yes</label>
+            </div>
+
+            <!--no death of a loved-->
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="noDeath">
+                <label class="form-check-label" for="noDeath">No</label>
+            </div>
+
+            <!--submit-->
+            <button type="button" class="btn btn-primary" onclick="process_form()">Submit</button>
+            &nbsp;
+            &nbsp;
+
+
+            <!-- recommendation output area -->
+            <footer class="container">
+              <h2 id="output">Your suggested therapist will appear here</h2>
+            </footer>
+            
+            
+
+        </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

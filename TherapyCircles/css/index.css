@@ -129,13 +129,13 @@ color: #7E8085;
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 25px;
+  padding: 15px;
 }
 
 /*Create three equal columns that float next to each other */
 .column {
   float: center;
-  width: 33%;
+  width: 30%;
 }
 
 footer {

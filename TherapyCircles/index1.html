@@ -34,12 +34,12 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="#">How it Works
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Resources</a>
@@ -48,7 +48,7 @@
             <a class="nav-link" href="#">Sign Up</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Log In</a>
+            <a class="nav-link" href="#">Login</a>
           </li>
 
         </ul>
@@ -58,19 +58,26 @@
 
   <!-- Page Content -->
   <div class="container">
+<div class="landing">
 
-    <!-- Jumbotron Header -->
-    <!--how can we help-->
-    <header class="jumbotron my-4">
-      <h1 class="display-3">Welcome to Therapy Circles</h1>
-      <h3>How can we help you?</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-      
-    
-    </header>
+  <!-- Jumbotron Header -->
+  <!--how can we help-->
+  <header id="jumbotron-my-4">
+    <h1 class="display-3">Welcome to Therapy Circles</h1>
+    <h3>Slogan</h3>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+    <button class="get-started">Get Started</button>
+  </header>
+
+  <aside>
+    <img class="mainImg" src="./images/avatar.png"/>
+  </aside>
+
+</div>
 
 <div class="headline">
-    <h3>How it works</h3>
+    <h3 class="h3-how">How it works</h3>
+    <h4 class="h4-how">Receive free grief counseling from <br> the comfort of your home.</h4>
 </div>
     <!-- Page Features -->
     <div class="row text-center">
@@ -83,10 +90,10 @@
             <h4 class="card-title">1. Create a profile</h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
           </div>
-          <div class="card-footer">
-          <!--link to signup-->
+          <!-- <div class="card-footer">
+        
             <a href="#" class="btn btn-primary">Create profile</a>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -98,10 +105,10 @@
             <h4 class="card-title">2. Match with a provider</h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
           </div>
-          <div class="card-footer">
-          <!--button for step 2-->
+          <!-- <div class="card-footer">
+         
             <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -110,13 +117,13 @@
         <div class="card h-100">
           <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">Step 3. Begin Session</h4>
+            <h4 class="card-title">3. Begin Session</h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
           </div>
-          <!--button for step 3-->
-          <div class="card-footer">
+         
+          <!-- <div class="card-footer">
             <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -126,8 +133,8 @@
   <!-- /.container -->
 <!--#meet-->
 <div class="container" id="meet">
-    <p>Liscensed Therapists</p>
-    <h3>Meet Some of Our Therapists</h3>
+    <p class="license-p">Licensed Therapists</p>
+    <h3 class="license-h3">Meet Some of Our Therapists</h3>
 </div>
 
 <!--therapist album section-->
@@ -137,45 +144,49 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
+            <img src="images/avatar.png" width="100%" height="225" />
+            <p>Therapist Name</p>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
               <div class="d-flex justify-content-between align-items-center">
+
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+    
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          <img src="images/avatar.png" width="100%" height="225" />
+          <p>Therapist Name</p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+              <div class="d-flex justify-content-between align-items-center">
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+    
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
+           <img src="images/avatar.png" width="100%" height="225" />
+           <p>Therapist Name</p>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
               <div class="d-flex justify-content-between align-items-center">
+
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
+    
               </div>
             </div>
           </div>
@@ -249,8 +260,14 @@
 
 <!--footer-->
 <footer class="py-5 bg-dark">
+
+  <div class="footer-A">
+    <nav>
+
+    </nav>
+  </div>
     <div class="container">
-  
+
     <p class="m-0 text-center text-white">If you are in a life threatening situation, don't use this site. <b>Call +1 (800)273-8255 to get immediate help.</b></p>
     </div>
     <!-- /.container -->

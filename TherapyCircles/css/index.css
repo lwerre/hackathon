@@ -3,8 +3,127 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
  */
+
+
+
 body {
   padding-top: 56px;
+  background-image: url('../images/Frame.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  
+  
+ 
+
+}
+
+.get-started {
+height: 20px;
+left: 24.85%;
+right: 24.85%;
+top: calc(50% - 20px/2);
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+justify-content: center;
+padding: 1em 1em 2em 1em;
+margin: 40px;
+border-radius: 5%;
+color: #5C5C5C;
+}
+
+.landing {
+  display: flex;
+
+}
+
+#jumbotron-my-4 {
+
+
+  padding-left: 5em;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+.mainImg {
+  margin: 2em;
+  height: 45vh; 
+  width: auto;
+  
+}
+
+.h3-how {
+  color: #7E8085;
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.h4-how {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 46px;
+  /* or 135% */
+  
+  text-align: center;
+  
+  color: #2C2E30;
+}
+
+.card-title {
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #2C2E30;
+}
+
+.therapists {
+display: flex;
+flex-direction: row;
+}
+
+.license-p {
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+
+color: #7E8085;
+}
+
+.license-h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  /* identical to box height, or 135% */
+  
+  text-align: center;
+  
+  color: #2C2E30;
 }
 
 /* Add padding BETWEEN each column (if you want) */
@@ -46,7 +165,6 @@ footer {
   text-align: center;
   
 }
-
 
 
 /* Responsive layout - reduces size of three column layout */

@@ -1,4 +1,94 @@
 /*flex items styling- css stylings have no effect on flex CONTAINER*/
-.box.flex {
-  margin-left: 33%;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+#header {
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+}
+
+.container-1 {
+  width: 75%;
+  height: 500px;
+  background-color: #ccc;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 300px;
+  margin-right: 25%;
+
+  font-family: Lato;
+  
+}
+
+.container-2 {
+  width: 75%;
+  height: 500px;
+  background-color: #ccc;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 300px;
+  font-family: Lato;
+  margin-right: 25%;
+    
+  }
+
+.container-3 {
+  
+  width: 75%;
+  height: 500px;
+  background-color: #ccc;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 300px;
+  margin-right: 25%;
+  
+  font-family: Lato;
+    
+}
+
+.container-4 {
+  
+  width: 75%;
+  height: 500px;
+  background-color: #ccc;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 300px;
+  margin-right: 25%;
+  
+  font-family: Lato;
+    
+  }
+
+
+
+
+/*
+#text {
+  
+}
+
+#image {
+  
+}
+
+*/

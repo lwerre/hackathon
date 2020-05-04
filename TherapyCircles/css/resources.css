@@ -10,76 +10,91 @@
   font-size: 16px;
 }
 
+/*flex boxes for resources*/
+.container {
+  margin-left: 33%;
+  font-family: Lato;
+}
+
+.resourcelinks {
+  font-family: Lato;
+  color: blue;
+}
+
 .container-1 {
-  width: 75%;
+  font-family: Lato;
+  width: 50%;
   height: 500px;
-  background-color: #ccc;
+  background-color: white;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   padding-top: 25px;
   padding-left: 100px;
   padding-right: 100px;
-  margin-left: 300px;
+  margin-left: 25%;
   margin-right: 25%;
 
-  font-family: Lato;
+  
   
 }
 
 .container-2 {
-  width: 75%;
+  width: 50%;
   height: 500px;
-  background-color: #ccc;
+  background-color: white;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   padding-top: 25px;
   padding-left: 100px;
   padding-right: 100px;
-  margin-left: 300px;
+  margin-left: 25%;
   font-family: Lato;
   margin-right: 25%;
     
   }
 
 .container-3 {
-  
-  width: 75%;
+  font-family: Lato;
+  width: 50%;
   height: 500px;
-  background-color: #ccc;
+  background-color: white;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   padding-top: 25px;
   padding-left: 100px;
   padding-right: 100px;
-  margin-left: 300px;
+  margin-left: 25%;
   margin-right: 25%;
   
-  font-family: Lato;
+  
     
 }
 
 .container-4 {
-  
-  width: 75%;
+  font-family: Lato;
+  width: 50%;
   height: 500px;
-  background-color: #ccc;
+  background-color: white;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   padding-top: 25px;
   padding-left: 100px;
   padding-right: 100px;
-  margin-left: 300px;
+  margin-left: 25%;
   margin-right: 25%;
   
-  font-family: Lato;
+  
     
   }
 
-
+#resources {
+  padding-top: 50px;
+  font-family: Lato;
+}
 
 
 /*

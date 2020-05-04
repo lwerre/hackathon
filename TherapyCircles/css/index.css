@@ -3,17 +3,12 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
  */
-
-
-
 body {
   padding-top: 56px;
   background-image: url('../images/Frame.png');
   background-repeat: no-repeat, repeat;
-  background-position: center;
-  
-  
- 
+  background-attachment: fixed;
+  background-position: center top;
 
 }
 
@@ -22,7 +17,6 @@ height: 20px;
 left: 24.85%;
 right: 24.85%;
 top: calc(50% - 20px/2);
-
 font-family: Lato;
 font-style: normal;
 font-weight: normal;
@@ -36,9 +30,9 @@ border-radius: 5%;
 color: #5C5C5C;
 }
 
+
 .landing {
   display: flex;
-
 }
 
 #jumbotron-my-4 {
@@ -48,13 +42,14 @@ color: #5C5C5C;
   font-size: 48px;
   line-height: 58px;
   color: #FFFFFF;
+  height: 30vh;
+  padding: 1em 1em 10em 3em;
 }
 
 .mainImg {
   margin: 2em;
   height: 45vh; 
   width: auto;
-  
 }
 
 .h3-how {
@@ -74,10 +69,7 @@ color: #5C5C5C;
   font-weight: normal;
   font-size: 34px;
   line-height: 46px;
-  /* or 135% */
-  
-  text-align: center;
-  
+  text-align: center;  
   color: #2C2E30;
 }
 
@@ -87,9 +79,6 @@ color: #5C5C5C;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  /* identical to box height */
-  
-  
   color: #2C2E30;
 }
 
@@ -106,7 +95,6 @@ color: #5C5C5C;
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
-  
   color: #7E8085;
 }
 
@@ -116,10 +104,7 @@ color: #5C5C5C;
   font-weight: bold;
   font-size: 34px;
   line-height: 46px;
-  /* identical to box height, or 135% */
-  
   text-align: center;
-  
   color: #2C2E30;
 }
 
@@ -127,11 +112,6 @@ color: #5C5C5C;
   background-color: black;
   padding: 2em;
 }
-
-.carousel-inner {
-  justify-content: center;
-}
-
 
 #C1 {
   justify-content: row;
@@ -141,17 +121,11 @@ color: #5C5C5C;
 .row > .column {
   padding: 15px;
 }
-
 /*Create three equal columns that float next to each other */
 .column {
   float: center;
   width: 30%;
 }
-
-/* .d-block {
-  
-} */
-
 .articles-part-1 {
   background-color: #FFFFFF;
 }
@@ -160,12 +134,56 @@ color: #5C5C5C;
 background-color: grey;
 }
 
-footer {
-
+.btn-secondary {
+  height: 20px;
+  left: 24.85%;
+  right: 24.85%;
+  top: calc(50% - 20px/2);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 1em 1em 2em 1em;
+  margin: 40px;
+  border-radius: 5%;
+  color: #5C5C5C;
+  background-color: #FFFFFF;
 }
+
+.give {
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-emphasis: none;
+}
+
+#therapist-actions {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#therapist-actions-btn {
+  justify-content: center!important;
+  margin-left: 44%;
+}
+
+.line-with-arrow-link {
+  text-decoration: underline;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
 .footer-A-container {
   background-color: #FFFFFF;
- 
+
 }
 
 .footer-nav{

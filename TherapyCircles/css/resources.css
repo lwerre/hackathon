@@ -1,0 +1,109 @@
+/*flex items styling- css stylings have no effect on flex CONTAINER*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+}
+
+/*flex boxes for resources*/
+.container {
+  margin-left: 33%;
+  font-family: Lato;
+}
+
+.resourcelinks {
+  font-family: Lato;
+  color: blue;
+}
+
+.container-1 {
+  font-family: Lato;
+  width: 50%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  
+  
+}
+
+.container-2 {
+  width: 50%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 25%;
+  font-family: Lato;
+  margin-right: 25%;
+    
+  }
+
+.container-3 {
+  font-family: Lato;
+  width: 50%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+  
+    
+}
+
+.container-4 {
+  font-family: Lato;
+  width: 50%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+  
+    
+  }
+
+#resources {
+  padding-top: 50px;
+  font-family: Lato;
+}
+
+
+/*
+#text {
+  
+}
+
+#image {
+  
+}
+
+*/

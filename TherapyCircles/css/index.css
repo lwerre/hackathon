@@ -50,7 +50,7 @@ color: #5C5C5C;
 }
 
 .mainImg {
-  margin: 2em;
+  margin: 8em 3em 1em 1em;
   height: 45vh; 
   width: auto;
 }
@@ -102,7 +102,7 @@ color: #5C5C5C;
 }
 
 .license-h3 {
-  font-family: Lato;
+  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
@@ -112,9 +112,22 @@ color: #5C5C5C;
 }
 
 .testimonial-container {
-  background-color: black;
+  background-color: #F2F2F2;
   padding: 2em;
+  
 }
+
+.carousel-list {
+  flex-direction: row;
+
+}
+
+.carousel-item {
+  display: flex;
+  /* justify-content: center; */
+}
+
+
 
 #C1 {
   justify-content: row;
@@ -134,7 +147,7 @@ color: #5C5C5C;
 }
 
 .action-part-2 {
-background-color: grey;
+background-color: #2F264A;;
 }
 
 .btn-secondary {
@@ -163,6 +176,7 @@ background-color: grey;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
+  
   color: #FFFFFF;
   text-emphasis: none;
 }
@@ -203,7 +217,7 @@ background-color: grey;
 
 footer {
   height: 5%;
-  background-color: darkgray;
+  background-color: #2F264A;
 }
 
 /* Clear floats after rows */

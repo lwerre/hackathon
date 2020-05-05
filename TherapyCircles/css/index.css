@@ -9,7 +9,14 @@ body {
   background-repeat: no-repeat, repeat;
   background-attachment: fixed;
   background-position: center top;
+}
 
+.navbar-brand{
+  color: #2f264a!important;
+}
+
+.nav-link {
+  color: #2f264a!important;
 }
 
 .get-started {
@@ -192,10 +199,29 @@ background-color: #2F264A;;
   margin-left: 44%;
 }
 
+#article-preview-container {
+  display: flex;
+}
+
+.article-preview-img {
+ margin: 2em 4em 2em 20%;
+}
+
+.article-left-side{
+  width: 45vw;
+  padding: 5em
+}
+
 .line-with-arrow-link {
   text-decoration: underline;
   line-height: 20px;
   color: #FFFFFF;
+}
+
+.line-with-arrow-link-article {
+  text-decoration: underline;
+  line-height: 24px;
+  color: black;
 }
 
 .footer-A-container {

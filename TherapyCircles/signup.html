@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--custom stylesheet for signup.html-->
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Sign Up</title>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <img src="logo" />
+      <a class="navbar-brand" href="index1.html">Therapy Circles</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">How it Works
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resources.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--sign up form-->
+
+<form action="index.html" method="post">
+      
+        <h1>Sign Up</h1>
+          <p>Sign up for Therapy Circles for access to free virtual grief counseling with a licensed therapist in your area.</p>
+        <fieldset>
+  &nbsp;
+<!--full name-->
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="user_name">
+<!--email address-->          
+          <label for="mail">Email</label>
+          <input type="email" id="mail" name="user_email">
+<!--password-->          
+          <label for="password">Password</label>
+          <input type="password" id="password" name="user_password">
+            <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+<!--confirm password-->         
+          <label for="confirmpassword">Confirm Password</label>
+          <input type="password" id="confirmpassword" name="confirmpassword">
+          <br/>
+<!--radio button for age and user agreement-->
+          <input type="checkbox" id="consent" value="agree" name="consent"><label for="under_13" class="light">I am over 13 and I agree to the <a href="#">terms and conditions</a></label><br>
+<!--submit-->
+          <button class="btn btn-primary" type="submit" id="submit">Send</button>
+        </fieldset>
+        
+              
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>

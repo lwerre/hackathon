@@ -5,24 +5,33 @@
   }
   
   body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato';
     color: #384047;
     margin-top: 150px;
   }
   
   form {
-    max-width: 400px;
+    max-width: 800px;
     margin: 10px auto;
     padding: 10px 20px;
-    background: #f4f7f8;
+    background: white;
     border-radius: 8px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*text-align: center;*/
   }
   
   h1 {
-    margin: 0 0 30px 0;
+    margin: 40px 0px 30px 0;
+    padding-left: 50px;
     text-align: left;
+    font-family: 'Raleway'
   }
   
+  p {
+    padding-left: 50px;
+    font-family: 'Lato';
+  }
   input[type="text"],
   input[type="password"],
   
@@ -30,16 +39,16 @@
   
   textarea,
   select {
-    background: rgba(255,255,255,0.1);
-    border: none;
+    /*background: rgba(255,255,255,0.1);*/
+    border: 0.5px solid #D3D3D3;/*border for input boxes*/
     font-size: 16px;
     height: auto;
-    margin: 0;
     outline: 0;
     padding: 15px;
-    width: 100%;
-    background-color: #e8eeef;
-    color: #8a97a0;
+    width: 65%; /*input boxes width*/
+    background-color: white;/*input boxes color*/
+    border-radius: 3px solid black;
+    color: black;
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     margin-bottom: 30px;
   }
@@ -56,26 +65,47 @@
   
   button {
     padding: 19px 39px 18px 39px;
+    margin-top: 15px;
     margin-left: 150px;
     color: #FFF;
-    background-color: #4bc970;
-    font-size: 18px;
+    background-color: #2f264a;
+    font-size: 24px;
     text-align: center;
-    font-style: normal;
+    font-family: 'Lato';
     border-radius: 5px;
     width: 25%;
-    border: 1px solid #3ac162;
+    border: 1px solid;
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
     margin-bottom: 10px;
   }
   
+  #submit {
+    color: white;
+    background-color: rgb(111, 21, 230);
+    background-color: rgb(111, 21, 230);
+    border: 1px solid ;
+    border-radius: 8px;
+    margin-left: 150px;
+    padding: 10px 20px 10px 20px;
+  }
+
   fieldset {
+    margin-left: 50px; /*margin for input fields*/
+    margin-right: 15px;
     margin-bottom: 30px;
     border: none;
   }
   
- 
+ /*password masking icon*/
+ #password-field {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
   
   label {
     display: block;
@@ -88,7 +118,7 @@
   }
   
   .number {
-    background-color: #5fcf80;
+    background-color: #2f264a;
     color: #fff;
     height: 30px;
     width: 30px;
@@ -105,7 +135,7 @@
   @media screen and (min-width: 480px) {
   
     form {
-      max-width: 600px;
+      max-width: 900px;
     }
   
   }

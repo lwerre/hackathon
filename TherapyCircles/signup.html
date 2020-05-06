@@ -10,7 +10,7 @@
 
     <!--custom stylesheet for signup.html-->
     <link rel="stylesheet" href="css/signup.css">
-    <title>Hello, world!</title>
+    <title>Sign Up</title>
   </head>
   <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -50,9 +50,10 @@
 <form action="index.html" method="post">
       
         <h1>Sign Up</h1>
-        <p>Sign up for Therapy Circles for access to free virtual grief counseling with a licensed therapist in your area.</p>
+          <p>Sign up for Therapy Circles for access to free virtual grief counseling with a licensed therapist in your area.</p>
         <fieldset>
-          
+  &nbsp;
+<!--full name-->
           <label for="name">Full name</label>
           <input type="text" id="name" name="user_name">
 <!--email address-->          
@@ -61,9 +62,11 @@
 <!--password-->          
           <label for="password">Password</label>
           <input type="password" id="password" name="user_password">
+            <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 <!--confirm password-->         
           <label for="confirmpassword">Confirm Password</label>
           <input type="password" id="confirmpassword" name="confirmpassword">
+          <br/>
 <!--radio button for age and user agreement-->
           <input type="checkbox" id="consent" value="agree" name="consent"><label for="under_13" class="light">I am over 13 and I agree to the <a href="#">terms and conditions</a></label><br>
 <!--submit-->

@@ -97,3 +97,38 @@
   font-family: Lato;
 }
 
+.footer-A-container {
+  background-color: #FFFFFF;
+
+}
+
+.footer-nav{
+  display: flex;
+  justify-content: flex-strart;
+  flex-direction: row;
+  margin: 0!important;
+  list-style-type: none;
+  text-decoration: none;
+  color: #2f264a;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+footer {
+  height: 5%;
+  background-color: #2F264A;
+}
+
+/* Responsive layout - reduces size of three column layout */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

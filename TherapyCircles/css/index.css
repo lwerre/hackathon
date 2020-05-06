@@ -123,11 +123,16 @@ color: #5C5C5C;
 }
 
 .carousel-item {
-  display: flex;
-  /* justify-content: center; */
+  /*display: flex;*/
+  justify-content: center; 
+  padding-left: 40%;
+  text-align: left;
+ }
+
+.articles-part-1 {
+  padding-top: 50px;
+  text-align: center;
 }
-
-
 
 #C1 {
   justify-content: row;
